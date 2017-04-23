@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.mainform {
+  width: 100%;
+}
+.mainform__item {
+  margin: 0 10px;
+}
+.result {
+  margin: 10px;
+  display: inline-block !important;
+}
+.resultlist {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.resultanim-appear {
+  opacity: 0.01;
+}
+
+.resultanim-appear.resultanim-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+.mwell {
+  margin-top: 10px;
+}
